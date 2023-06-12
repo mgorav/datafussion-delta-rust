@@ -8,7 +8,7 @@ technologies which can scale in memory.
 
 Few years back, if I had said: _"I want to create by database for cubes just like the way FANG companies does it"_. It 
 have been deemed an over engineering project. We can do it now easily fitting, need company. No point buying a product 
-and spend n number of man hours to deploy, manage and monitoring, still fighting to move old CUBES to new technologies 
+and spend n number of man-hours to deploy, manage and monitoring, still fighting to move old CUBES to new technologies 
 (for scale).
 
 I this blog I will utilize system programming language RUST and columnar storage (apt for analytics).
