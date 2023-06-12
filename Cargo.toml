@@ -1,0 +1,21 @@
+[package]
+name = "data-fusion-delta"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow = "41.0.0"
+arrow-flight = "41.0.0"
+arrow-schema = "41.0.0"
+async-trait = "0.1.68"
+datafusion = "26.0.0"
+deltalake = "0.12.0"
+polars = { versions = "0.30.0", features = ["polars-io"] }
+polars-io = { versions = "0.30.0", features = ["parquet", ] }
+polars-lazy = "0.30.0"
+#polars = "0.30.0"
+#polars-io = "0.30.0"
+polars-sql = "0.30.0"
+tokio = "1.28.2"
