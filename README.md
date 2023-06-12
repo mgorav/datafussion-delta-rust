@@ -1,4 +1,4 @@
-## Data Fusion Query Engine (NO SPARK) For DeltaLake
+## Data Fusion Query Engine (WITHOUT SPARK) For DeltaLake
 
 I this blog, I will talk about query delta files without using SPARK. Yes, you heard it right. This potentially 
 open us opportunities to build data centric web analytics/machine learning application as well as move "CUBES" to 
