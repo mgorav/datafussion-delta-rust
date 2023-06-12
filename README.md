@@ -8,3 +8,5 @@ have been deemed an over engineering project. We can do it now easily fitting, n
 and spend n number of man hours to deploy, manage and monitoring, still fighting to move old CUBES to new technologies 
 (for scale).
 
+I this blog I will utilize system programming language RUST and columnar storage (apt for analytics).
+
