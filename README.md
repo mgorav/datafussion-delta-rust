@@ -9,7 +9,8 @@ technologies which can scale in memory.
 Few years back, if I had said: _"I want to create by database for cubes just like the way FANG companies does it"_. I 
 would have been deemed an over enthusiastic engineer. We can do it now easily fitting, need company. No point buying a product 
 and spend n number of man-hours to deploy, manage and monitoring, still fighting to move old CUBES to new technologies 
-(for scale).
+(for scale), along with managing multiple storages (source of truth of data). As typically, these databses requires,
+move data like time series using Kafka and make sure Lakehouse and these databases are in sync.
 
 I this blog I will utilize system programming language RUST and columnar storage (apt for analytics).
 
